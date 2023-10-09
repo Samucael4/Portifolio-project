@@ -1,0 +1,78 @@
+/* Reset de estilos básicos */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Defina a fonte padrão e o tamanho do texto */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Aplicar fundo escuro */
+body {
+    background-color: #1e1e1e;
+    color: white;
+}
+
+/* Centralize todo o conteúdo verticalmente e horizontalmente */
+header, section, footer {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px; /* Define a largura máxima do conteúdo */
+    padding: 20px;
+}
+
+/* Estilo para links */
+a {
+    color: #0077b5; /* Azul escuro para links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #04a1db; /* Azul claro ao passar o mouse */
+}
+
+/* Estilo para os projetos */
+.projeto {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+/* Estilo para os cabeçalhos */
+h1, h2, h3 {
+    color: white;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    padding: 10px;
+}
+
+/* Estilo para a lista de tecnologias */
+.tecnologias ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tecnologias ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Adicione margem inferior aos links sociais */
+.social-links a {
+    margin: 0 10px;
+}
+
+/* Estilo para os links sociais */
+.social-links a {
+    color: white;
+    font-size: 24px;
+}
